@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244, 241, 241);
+}
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(122, 121, 121);
+    background-color: rgb(255, 255, 255);
+}
+
+.image-ragu{
+    padding: 10px;
+ 
+}
+.image-ragu img{
+    height: 150px;
+    width: 150px;
+    border: 2.5px solid rgb(56, 154, 252);
+    border-radius: 50%;
+
+}
+.name{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+}
+.name p{
+   text-align: center;
+   font-weight: 600;
+   text-shadow: 1px 1px rgb(122, 122, 122);
+   font-size: large;
+}
+.socilmedia-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 10px;
+    margin-top: 15px;
+}
+.socilmedia-icons li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: x-large;
+    cursor: pointer;
+}
+.socilmedia-icons a{
+  color: black;
+  text-decoration: none;
+}
+.contact{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.contact button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(53, 89, 246);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.contact button:hover{
+  
+    transition-duration: 1s;
+    background-color:rgb(10, 31, 138) ;
+}
