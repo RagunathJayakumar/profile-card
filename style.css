@@ -159,7 +159,7 @@ body{
 }
 
 /* aboutme */
-.slideing_buttons{
+/* .slideing_buttons{
     background-color: rgb(244, 241, 241);
     display: flex;
     justify-content: space-evenly;
@@ -208,4 +208,4 @@ body{
 .skills-list{
     display: none;
     list-style-type: none;
-}
+} */
